@@ -3,11 +3,13 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-       int myNumber = 88;
-        System.out.println(myNumber);
-        myNumber = 94;
-        System.out.println(myNumber);
-        String yoruba = "Emi ke";
-        System.out.println("yoruba");
+        int votersAge = 11;
+        System.out.println("Prepare to looop!!!");
+        while (votersAge < 16){
+            System.out.println("You cannot vote, you are " + votersAge + "!");
+            votersAge = votersAge +1;
+
+        }
+        System.out.println("Phew! That was fun");
     }
 }
